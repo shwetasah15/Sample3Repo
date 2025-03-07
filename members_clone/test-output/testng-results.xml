@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-06T13:31:01 IST" name="Default suite" finished-at="2025-03-06T13:31:16 IST" duration-ms="14697">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:StepDefPkg.RunnerFbLogin@4009e306]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-03-06T13:31:01 IST" name="Default test" finished-at="2025-03-06T13:31:16 IST" duration-ms="14697">
+      <class name="StepDefPkg.RunnerFbLogin">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:StepDefPkg.RunnerFbLogin@4009e306]" started-at="2025-03-06T13:31:01 IST" name="setUpClass" finished-at="2025-03-06T13:31:02 IST" duration-ms="821" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@37ed010a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:StepDefPkg.RunnerFbLogin@4009e306]" started-at="2025-03-06T13:31:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-06T13:31:16 IST" duration-ms="13767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User logs into Rediff"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Rediff Login Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:StepDefPkg.RunnerFbLogin@4009e306]" started-at="2025-03-06T13:31:16 IST" name="tearDownClass" finished-at="2025-03-06T13:31:16 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- StepDefPkg.RunnerFbLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
