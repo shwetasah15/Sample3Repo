@@ -28,10 +28,10 @@
 Feature: Rediff Login Feature
 
   Scenario: User logs into Rediff
-    Given User is on Rediff login page
-    When User enters "testuser" and "password123"
+    Given I navigate to login page
+    When I insert "testuser" and "password123"
     And Clicks on Sign In button
-    Then User should be logged in
+    Then should be logged in 
      
      
      

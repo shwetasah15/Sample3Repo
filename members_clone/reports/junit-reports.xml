@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="12.255" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Rediff Login Feature" name="User logs into Rediff" time="11.963">
+<system-out><![CDATA[
+Given User is on Rediff login page..........................................passed
+When User enters "testuser" and "password123"...............................passed
+And Clicks on Sign In button................................................passed
+Then User should be logged in...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
